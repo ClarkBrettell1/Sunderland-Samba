@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<div class="card m-3" style="width: 22rem;">
+<div class="card m-4" style="width: 22rem;">
     <img class="p-2 card-img-top" src="/img/{{$player->id}}.jpg" alt="Card image cap">
     <div class="card-body">
         <p class="card-text text-center">{{ $player->first_name }} {{ $player->last_name }}</p>
