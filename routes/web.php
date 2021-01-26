@@ -18,7 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () { return view('about');});
-Route::get('/player/{player}', [PlayersController::class, 'show']);
+Route::get('/players/', [PlayersController::class, 'index']);
+Route::get('/players/{player}', [PlayersController::class, 'show']);
 
 Auth::routes();
 
