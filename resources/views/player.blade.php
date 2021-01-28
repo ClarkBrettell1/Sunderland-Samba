@@ -8,4 +8,5 @@
         <p class="card-text text-center">{{ $player->position }}</p>
     </div>
 </div>
+<a class="btn btn-primary p-2 border rounded" href="/">Home</a>
 @endsection

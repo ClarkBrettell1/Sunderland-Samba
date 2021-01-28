@@ -1,6 +1,9 @@
 @extends('layouts.layout')
 
 @section('content')
+    <div class="heroBanner">
+        <img class="w-100" src="/img/squad.jpg" alt="Sunderland Samba Logo">
+    </div>
     <div class="jumbotron">
         <h1 class="display-4">Sunderland Samba</h1>
         <p class="lead"></p>

@@ -18,6 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () { return view('about');});
+
+Route::get('/news', function () { return view('news');});
+
+    Route::get('/contacts', function () { return view('contact');});
+
+Route::get('/fixtures', function () { return view('fixtures');});
+
 Route::get('/players/', [PlayersController::class, 'index']);
 Route::get('/players/{player}', [PlayersController::class, 'show']);
 
