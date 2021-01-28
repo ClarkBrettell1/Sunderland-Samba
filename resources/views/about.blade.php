@@ -9,7 +9,10 @@
         <p>The club is ran by John Boyd and has deep connections with Kenya and helping use football as a mechanism to help others.</p>
         <p>Sunderland Samba compete in the North East Christian Fellowship League.</p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="about" role="button">About Us</a>
+            <a class="btn btn-primary" href="/players" role="button">Meet the squad</a>
         </p>
+    </div>
+    <div class="heroBanner">
+        <img class="w-100" src="/img/squad.jpg" alt="Sunderland Samba Logo">
     </div>
 @endsection

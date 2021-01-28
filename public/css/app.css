@@ -10014,3 +10014,10 @@ footer {
   min-height: 200px;
   height: auto;
 }
+
+.navbar p {
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+}
