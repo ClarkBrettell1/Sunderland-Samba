@@ -13,6 +13,6 @@
                 </div>
             </div>
         @endforeach
-            <a class="btn btn-primary m-1 p-2 border rounded" href="/">Home</a>
     </div>
+    <a class="btn btn-primary m-1 p-2 border rounded" href="/">Home</a>
 @endsection

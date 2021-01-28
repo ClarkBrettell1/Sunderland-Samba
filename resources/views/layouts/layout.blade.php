@@ -18,7 +18,7 @@
 
     <nav class="navbar navbar-dark bg-danger">
         <a class="navbar-brand" href="/">
-            <img src="/img/icon.png" alt="Sunderland Samba Logo" width="70px" class="p-1">
+            <img src="/img/icon.png" alt="Sunderland Samba Logo" width="55px" class="p-1">
         </a>
         <p class="text-lg-center text-bold m-0">Sunderland Samba</p>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
