@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 class PlayersController extends Controller
 {
+
+
     public function index(){
         $players = \DB::table('players')->get();
         return view('players', ['players' => $players]);
