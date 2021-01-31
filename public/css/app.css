@@ -10006,7 +10006,7 @@ h3 {
   }
 }
 footer {
-  background-color: #ac0a05;
+  background-color: #aa0000;
   color: whitesmoke;
   padding: 10px;
   text-align: center;
@@ -10015,6 +10015,10 @@ footer {
 .heroBanner {
   min-height: 200px;
   height: auto;
+}
+
+.navbar {
+  background-color: #aa0000;
 }
 
 .navbar p {

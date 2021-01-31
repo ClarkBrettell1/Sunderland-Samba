@@ -17,7 +17,7 @@
 </head>
 <header>
 
-    <nav class="navbar navbar-dark bg-danger">
+    <nav class="navbar navbar-dark">
         <a class="navbar-brand" href="/">
             <img src="/img/icon.png" alt="Sunderland Samba Logo" width="55px" class="p-1">
         </a>
@@ -53,7 +53,7 @@
 <body>
 @yield('content')
 </body>
-<footer class="bg-danger">
+<footer>
     <div class="container">
         <div class="row text-center text-xs-center text-sm-left text-md-left">
             <div class="col-xs-12 col-sm-4 col-md-4">
