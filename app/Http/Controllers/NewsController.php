@@ -12,7 +12,7 @@
         }
         public function show($slug)
         {
-            $article = \DB::table('players')->where('slug', $slug)->first();
-            return view('newsitem', ['article' => $article ]);
+            $newsitem = \DB::table('news')->where('slug', $slug)->first();
+            return view('newsitem', ['newsitem' => $newsitem ]);
         }
     }

@@ -15,5 +15,5 @@
             </div>
         @endforeach
     </div>
-    <a class="btn btn-primary m-1 p-2 border rounded" href="/">Home</a>
+    <a class="btn btn-primary m-1 p-2 border rounded" href="/"><i class="lni lni-angle-double-left p-1"></i>Home</a>
 @endsection

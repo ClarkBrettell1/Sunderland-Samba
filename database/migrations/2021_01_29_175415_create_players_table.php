@@ -19,6 +19,7 @@ class CreatePlayersTable extends Migration
             $table->string('last_name');
             $table->string('position');
             $table->string('goals');
+            $table->text('bio');
             $table->timestamps();
         });
     }
