@@ -17,4 +17,8 @@ class PlayersController extends Controller
         $player = \DB::table('players')->where('id', $id)->first();
         return view('player', ['player' => $player ]);
     }
+
+    public function create() {
+        return view('players.create');
+    }
 }
