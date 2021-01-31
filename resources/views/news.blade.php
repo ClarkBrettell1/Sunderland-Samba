@@ -10,7 +10,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{$newsitem->title}}</h5>
                         <p class="text-muted">Published at {{date_format(new DateTime($newsitem->created_at), "d/m/Y")}}</p>
-                        <p class="card-text">{{implode(' ', array_slice(explode(' ', $newsitem->body), 0, 20))."\n" ."....." }}</p>
+                        <p class="card-text">{{implode(' ', array_slice(explode(' ', $newsitem->body), 0, 17))."\n" ."....." }}</p>
                         <a href="/news/{{$newsitem->slug}}" class="btn btn-primary">Read Story</a>
                     </div>
                 </div>
