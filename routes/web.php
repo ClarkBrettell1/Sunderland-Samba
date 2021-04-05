@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlayersController;
-    use App\Http\Controllers\NewsController;
+use App\Http\Controllers\SunderlandPlayersController;
+use App\Http\Controllers\SunderlandSquadController;
+use App\Http\Controllers\NewsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,22 +21,51 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () { return view('about');});
+Route::get('/about/create', [aboutController::class, 'create']);
 
 Route::get('/news', function () { return view('news');});
 
 
 Route::get('/contact', function () { return view('contact');});
+Route::get('/contact/create', [ContactsController::class, 'create']);
 
 Route::get('/fixtures', function () { return view('fixtures');});
 
-Route::get('/players/', [PlayersController::class, 'index']);
-Route::get('/players/create', [PlayersController::class, 'create']);
-Route::get('/players/{player}', [PlayersController::class, 'show']);
+
+Route::get('football/sunderland/players', [SunderlandPlayersController::class,'index']);
+Route::get('football/sunderland/players/create', [SunderlandPlayersController::class,'create']);
+Route::post('football/sunderland/players', [SunderlandPlayersController::class, 'store']);
+Route::get('football/sunderland/players/{player}/edit', [SunderlandPlayersController::class, 'edit']);
+Route::put('football/sunderland/players/{player}/update', [SunderlandPlayersController::class, 'update']);
+Route::get('football/sunderland/players/{player}', [SunderlandPlayersController::class, 'show']);
+Route::delete('football/sunderland/players/{player}', [SunderlandPlayersController::class, 'destroy'])->middleware('auth');
+
+
+Route::get('football/sunderland/squad', [SunderlandSquadController::class,'index']);
+Route::get('football/sunderland/squad/create', [SunderlandSquadController::class,'create']);
+Route::post('football/sunderland/squad', [SunderlandSquadController::class, 'store']);
+Route::get('football/sunderland/squad/{squad}/edit', [SunderlandSquadController::class, 'edit']);
+Route::put('football/sunderland/squad/{squad}/update', [SunderlandSquadController::class, 'update']);
+Route::delete('football/sunderland/squad', [SunderlandSquadController::class, 'destroy'])->middleware('auth');
+
+
+Route::get('football/kenya/players', [KenyaPlayersController::class,'index']);
+Route::get('football/kenya/players/create', [KenyaPlayersController::class,'create']);
+Route::post('football/kenya/players', [KenyaPlayersController::class, 'store']);
+Route::get('football/kenya/players/{player}/edit', [KenyaPlayersController::class, 'edit']);
+Route::put('football/kenya/players/{player}/update', [KenyaPlayersController::class, 'update']);
+Route::get('football/kenya//players/{player}', [KenyaPlayersController::class, 'show']);
+Route::delete('football/kenya/players/{player}', [KenyaPlayersController::class, 'destroy'])->middleware('auth');
 
 
 
-Route::get('/news/', [NewsController::class, 'index']);
+
+
+Route::get('/news', [NewsController::class, 'index']);
+Route::get('/news/create', [NewsController::class, 'create']);
 Route::get('/news/{slug}', [NewsController::class, 'show']);
+Route::post('/news', [NewsController::class, 'store']);
+Route::post('/news/create',[NewsController::class, 'upload']);
 
 
 Auth::routes();

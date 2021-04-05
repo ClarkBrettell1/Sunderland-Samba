@@ -1,18 +1,19 @@
 @extends('layouts.layout')
 
 @section('content')
-    <div class="jumbotron">
-        <h1 class="display-4">About Sunderland Samba</h1>
-        <p class="lead"></p>
-        <hr class="my-4">
-        <p>Sunderland Samba FC has grown from small beginnings into a friendly club aimed at bringing people together to play football and share experiences.</p>
-        <p>The club is ran by John Boyd and has deep connections with Kenya; using football as a mechanism to help others.</p>
-        <p>Sunderland Samba compete in the North East Christian Fellowship League.</p>
-        <p class="lead">
-            <a class="btn btn-primary" href="/players" role="button"><i class="lni lni-tshirt p-1"></i>Meet the squad</a>
-        </p>
-    </div>
-    <div class="heroBanner">
-        <img class="w-100" src="/img/squad.jpg" alt="Sunderland Samba Logo">
+<section class="page-size" id="aboutSamba">
+    <h1>About Sunderland Samba</h1>
+    <p>
+        Sunderland Samba is project which works with the community to help people develop themselves to play a positive role in society, through sports and other measures.
+        As part of the project, we run community football teams in Sunderland , but also in Kenya, which we have a strong connections and deep roots with. The work we do helps communities in Kenya
+        and the local Sunderland Community.
+    </p>
+    <p>
+        The sports based work which Samba delivers, transcends age ranges , as Sunderland Samba work with very young children , to the older members of society to get them involved in the community activities and offering the relevant support to them
+        at the correct times, sport playing a vital role in forging friendships and connection as well as helping boost the mental health of it participants.
+    </p>
+</section>
+    <div class="heroBanner page-size">
+        <img class="w-100" src="/img/cara1.jpg" alt="Sunderland Samba Logo">
     </div>
 @endsection

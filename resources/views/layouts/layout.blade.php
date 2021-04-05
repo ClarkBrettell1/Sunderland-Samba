@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<head>
+<meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta charset="utf-8">
     <title>Sunderland Samba FC</title>
 
     <!-- Fonts -->
@@ -14,44 +14,56 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/trix.css">
+    <script src="{{ asset('js/trix.js') }}"></script>
+    <script src="{{ asset('js/attachments.js') }}"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <header>
 
-    <nav class="navbar navbar-dark">
-        <a class="navbar-brand" href="/">
-            <img src="/img/icon.png" alt="Sunderland Samba Logo" width="55px" class="p-1">
-        </a>
-        <p class="text-lg-center text-bold m-0">Sunderland Samba</p>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+    <div class="row px-0 m-0">
+        <div class="col px-0">
+            <ul class="nav" id="mainNav">
+                <li class="nav-item w-100">
+                    <div class="d-flex w-100 justify-content-around align-items-center p-2">
+                    <img src="/img/icon.png" alt="Sunderland Samba Logo" width="90px" style="margin: 0; padding: 0;" class="p-1">
+                    <h1 style="color:white;">Sunderland Samba</h1>
+                    <div>
+                    <a class="btn btn-primary m-1 p-2 header-btn" href="https://www.goldengiving.com/charity/sunderland-samba" target="_blank">Donate</a><br>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <ul class="nav justify-content-center" id="mainNavLinks">
+    <li class="nav-item">
+                    <a class="nav-link active" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about">About the Club</a>
+                    <a class="nav-link" href="about">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="players">Players</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="fixtures">Fixtures/League</a>
+                    <a class="nav-link" href="fixtures">League/Fixtures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news and events">News and Events</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact">Contact Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="news">News</a>
-                </li>
             </ul>
-        </div>
-    </nav>
+
+
 
 </header>
+
 <body>
-@yield('content')
+    @yield('content')
 </body>
 <footer>
     <div class="container">
@@ -75,7 +87,7 @@
                 <h5>News and Events</h5>
                 <ul class="list-unstyled quick-links">
                     <li><a href="news">News and Events</a></li>
-                    <li><a href="about">About</a></li>
+                    <li><a href="cases">Case Studies</a></li>
                 </ul>
             </div>
         </div>
@@ -99,4 +111,5 @@
         </div>
     </div>
 </footer>
+
 </html>
