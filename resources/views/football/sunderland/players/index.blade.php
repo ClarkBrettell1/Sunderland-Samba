@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
- <h1 class="text-center">Sunderland Samba Squad</h1>
+ <h1 class="text-center">Sunderland Samba Mens Squad</h1>
  <div class="mssg"> {{ session('mssg') }}</div>
  <div class="d-flex flex-wrap p-1">
      @foreach($players as $player)
