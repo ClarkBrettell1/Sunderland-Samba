@@ -6,6 +6,8 @@ use App\Http\Controllers\SunderlandPlayersController;
 use App\Http\Controllers\SunderlandSquadController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\SunderlandMatchReportsController;
+use App\Http\Controllers\SunderlandController;
+use App\Http\Controllers\FootballController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,6 +33,10 @@ Route::get('/contact', function () { return view('contact');});
 Route::get('/contact/create', [ContactsController::class, 'create']);
 
 Route::get('/fixtures', function () { return view('fixtures');});
+
+Route::get('football/sunderland', [SunderlandController::class,'index']);
+
+Route::get('football', [FootballController::class,'index']);
 
 
 Route::get('football/sunderland/players', [SunderlandPlayersController::class,'index']);

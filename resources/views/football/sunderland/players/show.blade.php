@@ -20,5 +20,5 @@
     </div>
 </div>
 </div>
-<a class="btn btn-primary m-1 p-2 border rounded" href="/players"><i class="lni lni-angle-double-left p-1"></i>Back to players</a>
+<a class="btn btn-primary m-1 p-2 border rounded" href="football/sunderland/players"><i class="lni lni-angle-double-left p-1"></i>Back to players</a>
 @endsection
