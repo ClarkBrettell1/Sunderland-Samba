@@ -5,6 +5,7 @@ use App\Http\Controllers\PlayersController;
 use App\Http\Controllers\SunderlandPlayersController;
 use App\Http\Controllers\SunderlandSquadController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\SunderlandMatchReportsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,6 +48,15 @@ Route::post('football/sunderland/squad', [SunderlandSquadController::class, 'sto
 Route::get('football/sunderland/squad/{squad}/edit', [SunderlandSquadController::class, 'edit']);
 Route::put('football/sunderland/squad/{squad}/update', [SunderlandSquadController::class, 'update']);
 Route::delete('football/sunderland/squad', [SunderlandSquadController::class, 'destroy'])->middleware('auth');
+
+
+Route::get('football/sunderland/reports', [SunderlandMatchReportsController::class,'index']);
+Route::get('football/sunderland/reports/create', [SunderlandMatchReportsController::class,'create']);
+Route::post('football/sunderland/reports', [SunderlandMatchReportsController::class, 'store']);
+Route::get('football/sunderland/reports/{report}/edit', [SunderlandMatchReportsController::class, 'edit']);
+Route::put('football/sunderland/reports/{report}/update', [SunderlandMatchReportsController::class, 'update']);
+Route::get('football/sunderland/reports/{report}', [SunderlandMatchReportsController::class, 'show']);
+Route::delete('football/sunderland/reports', [SunderlandMatchReportsController::class, 'destroy'])->middleware('auth');
 
 
 Route::get('football/kenya/players', [KenyaPlayersController::class,'index']);
