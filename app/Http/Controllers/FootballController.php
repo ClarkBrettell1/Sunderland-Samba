@@ -10,7 +10,7 @@ class FootballController extends Controller
 
     public function index(){
       
-        return view('football.sunderland.index');
+        return view('football.index');
     }
 
 }

@@ -1,4 +1,0 @@
-AuthUserFile /.htpasswd
-AuthType Basic
-AuthName "Samba Website Entry"
-Require valid-user

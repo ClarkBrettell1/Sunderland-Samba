@@ -4,6 +4,7 @@
 <head>
 <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sunderland Samba FC</title>
 
     <!-- Fonts -->
@@ -46,16 +47,16 @@
                     <a class="nav-link active" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="players">Players</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="fixtures">League/Fixtures</a>
+                    <a class="nav-link" href="/football">Football</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="news and events">News and Events</a>
+                </li>      
+                <li class="nav-item">
+                    <a class="nav-link" href="about">Partners and Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact">Contact Us</a>
