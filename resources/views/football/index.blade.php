@@ -14,7 +14,7 @@
                         </h2>
                     </div>
                     <div class="d-flex side-image">
-                        <img class="p-2 m-2 w-100" src="img\players\1616622540_Nathan.jpg" alt="test">
+                        <img class="p-2 m-2 w-100" src="img/players/1616622540_Nathan.jpg" alt="test">
                     </div>
                     <div class="d-flex flex-column side-text">
                         <p class="p-2 mx-4 my-1">
