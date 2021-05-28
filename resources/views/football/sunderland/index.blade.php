@@ -35,7 +35,7 @@
                 <div class="d-flex flex-wrap section-wrap my-0">
                     <div class="mx-5 w-100">
                         <h2 class="mx-5">
-                            Sunderland Based Football Project
+                            Sunderland Mens Squad
                         </h2>
                     </div>
                     <div class="d-flex side-image">
@@ -50,7 +50,7 @@
                         </p>
                     </div>
                 <div class="d-flex w-100 justify-content-center">
-                    <a class="btn btn-primary my-5 p-2 border rounded" href="/football/sunderland">Sunderland Football</a>
+                    <a class="btn btn-primary my-5 p-2 border rounded" href="sunderland/squad">Sunderland Mens Squad</a>
                 </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
             <div class="d-flex flex-wrap section-wrap-alt my-3">
                 <div class="mx-5 w-100">
                     <h2 class="mx-5">
-                        Kenya Based Football Project
+                        Sunderland Match Reports
                     </h2>
                 </div>
                 <div class="d-flex side-image">
@@ -73,7 +73,7 @@
                     </p>
                 </div>
             <div class="d-flex w-100 justify-content-center">
-                <a class="btn btn-primary my-5 p-2 border rounded" href="/football/kenya">Kenyan Football</a>
+                <a class="btn btn-primary my-5 p-2 border rounded" href="sunderland/reports">Match Reports</a>
             </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
         <div class="d-flex flex-wrap section-wrap m-5">
             <div class="mx-5 w-100">
                 <h2 class="mx-5">
-                    Festival Of Football
+                    Sunderland Samba Mens Players
                 </h2>
             </div>
             <div class="d-flex side-image">
@@ -96,7 +96,7 @@
                 </p>
             </div>
         <div class="d-flex w-100 justify-content-center">
-            <a class="btn btn-primary my-5 p-2 border rounded" href="/football/festival">Festival of Football</a>
+            <a class="btn btn-primary my-5 p-2 border rounded" href="sunderland/players">Players</a>
         </div>
         </div>
     </div>
@@ -104,7 +104,7 @@
     <div class="d-flex flex-wrap section-wrap-alt my-3">
         <div class="mx-5 w-100">
             <h2 class="mx-5">
-                Volunteering Oppurtunities
+                Link to league table
             </h2>
         </div>
         <div class="d-flex side-image">
@@ -119,7 +119,7 @@
             </p>
         </div>
     <div class="d-flex w-100 justify-content-center">
-        <a class="btn btn-primary my-5 p-2 border rounded" href="/Volunteering">Volunteering</a>
+        <a class="btn btn-primary my-5 p-2 border rounded" target="_blank" href="https://football.mitoo.co.uk/LeagueTab.cfm?TblName=Matches&DivisionID=793&LeagueCode=NECFL2020">League Table</a>
     </div>
     </div>
 </div>
