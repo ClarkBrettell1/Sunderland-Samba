@@ -47,19 +47,31 @@
                     <a class="nav-link active" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/football">Football</a>
+                    <div class="dropdown">
+                        <a class="nav-link" href="/football">Football</a>
+                        <div>
+                            <div class="dropdown-content">
+                                <a class="nav-link" href="/football/sunderland">Sunderland Mens's Team</a>
+                                <a class="nav-link" href="/football/kenya">Kenyan Women's Team</a>
+                                <a class="nav-link" href="/football/festival">Festival of Football</a>
+                                <a class="nav-link" href="/football/volunteer">Volunteering Oppurtunities</a>
+                            </div>
+                        </div>
+                    </div>
                 </li>
+
+
                 <li class="nav-item">
-                    <a class="nav-link" href="news and events">News and Events</a>
+                    <a class="nav-link" href="/news">News</a>
                 </li>      
+                {{-- <li class="nav-item">
+                    <a class="nav-link" href="/about">Partners and Sponsors</a>
+                </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link" href="about">Partners and Sponsors</a>
+                    <a class="nav-link" href="/about">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact">Contact Us</a>
+                    <a class="nav-link" href="/contact">Contact Us</a>
                 </li>
             </ul>
 
@@ -77,22 +89,22 @@
                 <h5>About Us</h5>
                 <ul class="list-unstyled quick-links">
                     <li><a href="/">Home</a></li>
-                    <li><a href="about">About</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <h5>Club Information</h5>
+                <h5>Football</h5>
                 <ul class="list-unstyled quick-links">
-                    <li><a href="fixtures">Fixtures</a></li>
-                    <li><a href="fixtures">Results</a></li>
+                    <li><a href="/football/sunderland">Sunderland Team</a></li>
+                    <li><a href="/football/sunderland">Results</a></li>
                     <li><a href="players">Squad</a></li>
+                    <li><a href="fixtures">Sunderland Team</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <h5>News and Events</h5>
+                <h5>News</h5>
                 <ul class="list-unstyled quick-links">
-                    <li><a href="news">News and Events</a></li>
-                    <li><a href="cases">Case Studies</a></li>
+                    <li><a href="/news">Latest News</a></li>
                 </ul>
             </div>
         </div>

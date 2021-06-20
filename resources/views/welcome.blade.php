@@ -109,7 +109,7 @@
 <section class="page-size" id="partnersSamba">
     <p>
         Sunderland Samba can only continue the work in the community with donations from other. We rely on these contributions to deliver the projects we deliver
-        in both Kenya and in Sunderland. You can see some of the great work we do <a href="projects">here</a>. If you would like to donate you can do so
+        in both Kenya and in Sunderland. You can see some of the great work we do <a href="/football">here</a> or contact us <a href="/contact">here</a> . If you would like to donate you can do so
         by clicking on one of the links below and sign up for subscription or make a one off payment.<br> <a class="btn btn-info btn-md p-1 m-1" href="https://www.goldengiving.com/charity/sunderland-samba">Donate on Golden Giving</a><br>
         <a class="btn btn-info btn-md p-1 m-1" href="https://www.peoplesfundraising.com/fundraising/samba-tri-kenya">Donate on Peoples fundraising</a><br>
     </p>
@@ -168,4 +168,14 @@
 
     </div>
 </section>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 @endsection

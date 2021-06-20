@@ -9,6 +9,7 @@ use App\Http\Controllers\SunderlandMatchReportsController;
 use App\Http\Controllers\SunderlandController;
 use App\Http\Controllers\FootballController;
 use App\Http\Controllers\StaticPageController;
+use App\Http\Controllers\KenyaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -66,6 +67,9 @@ Route::get('football/sunderland/reports/{report}', [SunderlandMatchReportsContro
 Route::delete('football/sunderland/reports', [SunderlandMatchReportsController::class, 'destroy'])->middleware('auth');
 
 
+
+Route::get('football/kenya', [KenyaController::class,'index']);
+
 Route::get('football/kenya/players', [KenyaPlayersController::class,'index']);
 Route::get('football/kenya/players/create', [KenyaPlayersController::class,'create']);
 Route::post('football/kenya/players', [KenyaPlayersController::class, 'store']);
@@ -85,7 +89,7 @@ Route::delete('football/kenya/reports', [SunderlandMatchReportsController::class
 
 Route::get('football/festival', [StaticPageController::class, 'festival']);
 
-Route::get('volunteer', [StaticPageController::class, 'volunteer']);
+Route::get('football/volunteer', [StaticPageController::class, 'volunteer']);
 
 
 Route::get('/news', [NewsController::class, 'index']);
