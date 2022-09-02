@@ -47,19 +47,19 @@
     <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
-                {{-- <li class="nav-item">
-                    <div class="dropdown">
+                <li class="nav-item">
+                    {{-- <div class="dropdown"> --}}
                         <a class="nav-link" href="/football">Football</a>
-                        <div>
-                            <div class="dropdown-content">
+                        {{-- <div> --}}
+                            {{-- <div class="dropdown-content">
                                 <a class="nav-link py-3" href="/football/sunderland">Sunderland Mens's Team</a>
                                 <a class="nav-link py-3" href="/football/kenya">Kenyan Women's Team</a>
                                 <a class="nav-link py-3" href="/football/festival">Festival of Football</a>
                                 <a class="nav-link py-3" href="/football/volunteer">Volunteering Oppurtunities</a>
-                            </div>
-                        </div>
-                    </div>
-                </li> --}}
+                            </div> --}}
+                        {{-- </div> --}}
+                    {{-- </div> --}}
+                </li>
 
 
                 <li class="nav-item">
