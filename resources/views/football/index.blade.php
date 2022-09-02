@@ -126,7 +126,7 @@
             </p>
         </div>
     <div class="d-flex w-100 justify-content-center">
-        <a class="btn btn-primary my-5 p-2 border rounded" href="/volunteer">Volunteering</a>
+        <a class="btn btn-primary my-5 p-2 border rounded" href="football/volunteer">Volunteering</a>
     </div>
     </div>
 </div>
