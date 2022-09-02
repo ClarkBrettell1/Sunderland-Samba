@@ -9,7 +9,8 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/../css/app.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -44,17 +45,17 @@
     </div>
     <ul class="nav justify-content-center" id="mainNavLinks">
     <li class="nav-item">
-                    <a class="nav-link active" href="/">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
                         <a class="nav-link" href="/football">Football</a>
                         <div>
                             <div class="dropdown-content">
-                                <a class="nav-link" href="/football/sunderland">Sunderland Mens's Team</a>
-                                <a class="nav-link" href="/football/kenya">Kenyan Women's Team</a>
-                                <a class="nav-link" href="/football/festival">Festival of Football</a>
-                                <a class="nav-link" href="/football/volunteer">Volunteering Oppurtunities</a>
+                                <a class="nav-link py-3" href="/football/sunderland">Sunderland Mens's Team</a>
+                                <a class="nav-link py-3" href="/football/kenya">Kenyan Women's Team</a>
+                                <a class="nav-link py-3" href="/football/festival">Festival of Football</a>
+                                <a class="nav-link py-3" href="/football/volunteer">Volunteering Oppurtunities</a>
                             </div>
                         </div>
                     </div>
@@ -76,11 +77,24 @@
             </ul>
 
 
+            {{-- Hamburger Menu --}}
+
+
 
 </header>
 
 <body>
     @yield('content')
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </body>
 <footer>
     <div class="container">
