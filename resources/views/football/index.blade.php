@@ -84,10 +84,18 @@
             </div>
             <div class="d-flex flex-column side-text">
                 <p class="p-2 mx-4 my-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
+                    This runs during school holidays in May, August and October for children aged 5-12 years old. Boys
+                    and girls of all abilities are welcome as we focus on fun, staying healthy, improving our football skills
+                    and building friendships. There is plenty to learn alongside football with fun games, DJ workshops,
+                    healthy eating, drumming and it’s a great opportunity to make new friends. We have qualified
+                    coaches and an awesome group of staff &amp; volunteers ensuring that everyone has a great experience.
                 </p>
                 <p class="p-2 mx-4 my-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
+                    Our ethos of welcome and providing an atmosphere where children and young people can be
+                    themselves but also learn about and appreciate each other’s differences is appreciated. Feedback
+                    from parents suggests that children who might not fit in elsewhere find a place and people they can
+                    connect with and want to come back to. We build on these foundations by enabling young
+                    volunteers to take on responsibility for delivering the programme and learning new skills.
                 </p>
             </div>
         <div class="d-flex w-100 justify-content-center">
