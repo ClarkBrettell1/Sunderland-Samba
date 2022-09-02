@@ -61,7 +61,7 @@
                         the individuals as well as society.
               
                     </p>
-                    <p class="p-2 m-2 my-1">
+                    <p class="p-2 m-4 my-1">
                         We have fundraising events and sponsorship activities throughout the year in both Sunderland and
                         Kenya to support both the team, the individual players and their work with others in their
                         community.
