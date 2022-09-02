@@ -18,10 +18,22 @@
                     </div>
                     <div class="d-flex flex-column side-text">
                         <p class="p-2 mx-4 my-1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
-                        </p>
+                            Our 11-a-side men’s football team play in the North East Christian Fellowship League on Saturday
+                            mornings. The team represents the Methodist Church (we have a close relationship with the
+                            Methodist Church having originally developed out of a church youth project) and has been playing in
+                            the league since 2008. We also play every year in the National Christian Cup and National Christian
+                            Football Festival Weekend. Training takes place weekly.
+                            We aim to encourage reflection on life’s meaning and purpose through sharing experience and
+                            understanding, bring different people together to learn and understand each other, giving the
+                            opportunity to be part of a team especially to those who might not otherwise do so.                        </p>
                         <p class="p-2 mx-4 my-1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
+                            The team provides tournament provides the opportunity to go away to another place for a weekend,
+                            meet new people, have new experiences, receive positive messages and participate fully in decision
+                            making.
+                            As well as providing a positive team framework for young men to take part in regular healthy
+                            activities the team is also active in promoting racial and religious harmony. With members from a
+                            variety of race and religious backgrounds the team actively raises awareness of discrimination with
+                            each other and the teams we play against.
                         </p>
                     </div>
                 <div class="d-flex w-100 justify-content-center">
