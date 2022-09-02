@@ -3,9 +3,6 @@
 @section('content')
  <h1 class="text-center">Volunteer</h1>
  <div class="mssg"> {{ session('mssg') }}</div>
- <div class="title-block">
-    <h1>Volunteer</h1>
-    </div>
     <section class="page-size" id="Volunteer">
       
         <p>
