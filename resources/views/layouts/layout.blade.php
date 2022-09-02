@@ -47,7 +47,7 @@
     <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <div class="dropdown">
                         <a class="nav-link" href="/football">Football</a>
                         <div>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </div>
-                </li>
+                </li> --}}
 
 
                 <li class="nav-item">
