@@ -9,13 +9,13 @@
     </ol>
     <div class="carousel-inner grad">
         <div class="carousel-item active">
-            <img class="d-block w-100 grad" src="img/cara1.jpg" alt="First slide">
+            <img class="d-block w-100 grad" src="img/cara5.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 grad" src="img/cara2.jpg" alt="Second slide">
+            <img class="d-block w-100 grad" src="img/cara6.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 grad" src="img/cara3.jpg" alt="Third slide">
+            <img class="d-block w-100 grad" src="img/cara7.jpg" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -116,15 +116,15 @@
     </div>
 </section>
 
-<div class="title-block">
+<div class="title-block d-none">
     <h1>Our Partners</h1>
 </div>
-<section class="page-size" id="partnersSamba">
+<section class="page-size d-none" id="partnersSamba">
     <p>
         Sunderland Samba work with a variety of partners and funders to deliver our valuable community work to those who need it.
         Below are some of the funders we currently work with and some of the organisations we have delivered with or on behalf of.
     </p>
-    <div class="logo-display p-2">
+    <div class="logo-display p-2 d-none">
         <div class="row">
             <div class="col w-25">
                 <img src="img/logo2.png" class="partner-logo" width="auto" alt="partner logo">
@@ -143,10 +143,10 @@
     </div>
 </section>
 
-<div class="title-block">
+<div class="title-block d-none">
     <h1>Our Sponsors</h1>
 </div>
-<section class="page-size" id="partnersSamba">
+<section class="page-size d-none" id="partnersSamba">
     <p>
     Sunderland Samba sponsors are important to the running of the football clubs and offering vital things to the clubs. Venues to meet at, paying costs towards equipment and kit. Here are the current sponsors of Sunderland Samba.
     </p>
