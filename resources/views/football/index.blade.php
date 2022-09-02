@@ -115,10 +115,14 @@
         </div>
         <div class="d-flex flex-column side-text">
             <p class="p-2 mx-4 my-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
-            </p>
+                We have a wide variety of volunteering opportunities for young people and adults especially in the
+                areas of football coaching, youth work, fundraising and social media. We invest throughout the year
+                in our volunteers training and development in the UK and overseas.             </p>
             <p class="p-2 mx-4 my-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
+                Young volunteers, aged 11-15
+                years, have the opportunity to develop their confidence and skills planning short term community
+                projects in school holidays. All volunteers aged 16+ are invited to join our UK team on regular
+                international youth exchange trips to Kenya.
             </p>
         </div>
     <div class="d-flex w-100 justify-content-center">
