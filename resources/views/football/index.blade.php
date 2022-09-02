@@ -53,10 +53,18 @@
                 </div>
                 <div class="d-flex flex-column side-text">
                     <p class="p-2 mx-4 my-1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
+                        Samba Women’s 11-a-side team based in Kibera, Nairobi, currently compete in the Kenya Football
+                        Federation National League Division One. Team members are mentored to be active leaders and
+                        role models in their local community whilst also gaining sustainable livelihoods through access to
+                        education and work experience. Our regular exchange programme focuses on gaining new
+                        experiences and building ongoing relationships between communities that can make a difference to
+                        the individuals as well as society.
+              
                     </p>
                     <p class="p-2 m-2 my-1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget quam est. Phasellus lacinia convallis elementum. Pellentesque ornare sem nulla, in dapibus dolor convallis ut. Nullam condimentum purus in elit egestas, eu ullamcorper elit vulputate. Sed nisi justo, scelerisque sit amet euismod eget, porttitor quis mauris. Quisque vestibulum massa mi, in tristique sem bibendum porta. Suspendisse lacus quam, vulputate eu massa et, pretium cursus tellus. Integer malesuada vestibulum metus, a euismod ex efficitur non. Aliquam sed rhoncus dolor. Cras eleifend nec velit a viverra. Aliquam dignissim, nisl et egestas pretium, ligula nunc aliquet dolor, vitae tempus augue orci id libero. Cras ut ante sagittis tellus vehicula mollis.
+                        We have fundraising events and sponsorship activities throughout the year in both Sunderland and
+                        Kenya to support both the team, the individual players and their work with others in their
+                        community.
                     </p>
                 </div>
             <div class="d-flex w-100 justify-content-center">
