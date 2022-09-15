@@ -74,25 +74,21 @@
     <p>The Objectives of the CIO are as follows:</p>
     <ul>
         <li>
-            <p>To promote social inclusion for the public benefit by preventing people from becoming socially excluded, relieving the needs of those people who are socially excluded and assisting them to integrate into society.</p>
+            <p> For the relief of financial hardship in Nairobi, Kenya by providing or assisting in the provision of the necessary support to enable individuals to generate a sustainable income and be self-sufficient. </p>
         </li>
         <li>
-           <p>Promoting activities to foster understanding between people from diverse backgrounds. </p>
-        </li>
-        <li>
-            <p>The promotion of community participation in healthy recreation in particular by the provision of facilities for the playing of football.</p>
+           <p>The promotion of community participation in healthy recreation in particular by the provision of facilities for the playing of football.</p>
         </li>
         <li>
             <p>To help young people, especially but not exclusively through leisure time activities, so as to develop their capabilities that they may grow to full maturity as individuals and members of society.</p>
         </li>
         <li>
             <p>
-            The provision of facilities for recreation or other leisure time occupation with the object of improving the conditions of life of those persons, especially but not exclusively refugees and asylum seekers, who have need of such facilities by reason of their youth, age, infirmity or disablement, financial hardship or social and economic circumstances
-            </p>
-        </li>
-        <li>
-            <p>
-            The promotion of racial and religious harmony for the public benefit by promoting knowledge and mutual understanding between different racial/religious groups and working towards the elimination of discrimination on the grounds of race/religion.
+                The promotion of racial and religious harmony for the public benefit by:
+                <ul>
+                    <li>(a) promoting knowledge and mutual understanding between different racial groups and respect of the beliefs and practices of different religious faiths.;</li>
+                    <li>(b) advancing education and raising awareness about different racial and religious groups to promote good relations between persons of different racial groups and different faiths;</li>
+                </ul>
             </p>
         </li>
         <li>
