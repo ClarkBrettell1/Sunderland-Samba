@@ -2431,7 +2431,7 @@
             <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-clock-o"></i></span></div>
         </div>
 
-        <label for="result">Result</label>
+        <label for="result">Result ( 0 = lose , 1 = draw , 2 = win)</label>
         <input class="p-1 m-1" name="result" id="result">
 
         <label for="home">Home(Yes / No)</label>

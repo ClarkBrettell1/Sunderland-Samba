@@ -63,8 +63,14 @@ class SunderlandMatchReportsController extends Controller
 
         $report = new SunderlandMatchReports();
 
+        $date1 = strtr($request->input('date'), '/', '-');
+        // echo $date1;
+
         $report->title = $request->input('title');
-        $report->date = date('Y-m-d', strtotime($request->input('date')));
+        $report->date = date('Y-m-d', strtotime($date1));
+
+        // echo $report->date;
+     
 
         $report->result = $request->input('result');
         $report->home = $request->input('home');
