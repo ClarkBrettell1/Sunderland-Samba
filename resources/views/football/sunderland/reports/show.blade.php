@@ -159,7 +159,7 @@
     </div>
 
     <div class="d-flex w-100 container-fluid align-items-center justify-content-center">
-        <img src="/img/reports/{{$report->img}}" alt="" class="report_img">
+        <img src="/storage/{{$report->img}}" alt="" class="report_img">
     </div>
 
     <p class="body-text">
@@ -171,7 +171,7 @@
     </p>
     @endif
     @if ($report->img_2)
-    <img src="/img/reports/{{$report->img_2}}" alt="" class="report_img">
+    <img src="/storage/{{$report->img_2}}" alt="" class="report_img">
     @endif
     @if ($report->paragraph_3)
     <p class="body-text">
@@ -184,7 +184,7 @@
     </p>
     @endif
     @if ($report->img_3)
-    <img src="/img/reports/{{$report->img_3}}" alt="" class="report_img">
+    <img src="/storage/{{$report->img_3}}" alt="" class="report_img">
     @endif
     @if ($report->paragraph_5)
     <p class="body-text">

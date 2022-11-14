@@ -51,13 +51,13 @@ class SunderlandMatchReportsController extends Controller
 
         if(isset($request->img_2)){
             $newTwoImageName = time() . '_2' . $request->title . '.' . $request->img_2->extension();
-            $request->img_2->move('storage/img', $newTwoImageName);
+            $request->img_2->move('/storage', $newTwoImageName);
         }
 
         if(isset($request->img_3)){
         
         $newThreeImageName = time() . '_3' . $request->title . '.' . $request->img_3->extension();
-        $request->img_3->move('storage/img', $newThreeImageName);
+        $request->img_3->move('/storage', $newThreeImageName);
         // $request->img_3->move(public_path('img/reports'), $newThreeImageName);
 
         }
