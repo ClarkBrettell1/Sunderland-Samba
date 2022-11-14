@@ -45,7 +45,7 @@ class SunderlandMatchReportsController extends Controller
 
         $newImageName = time() . '_' . $request->title . '.' . $request->img->extension();
      
-        $request->img->move(public_path('../storage/img'), $newImageName);
+        $request->img->move(public_path('storage/img'), $newImageName);
 
    
 
