@@ -45,7 +45,7 @@
     @foreach($reports as $report)
     <div class="card m-4 grey-imp" style="width: 18rem;">
         <a href="/football/sunderland/reports/{{$report->id}}">
-            <img class="p-1 card-img-top" src="/img/reports/{{$report->img}}" alt="Card image cap">
+            <img class="p-1 card-img-top" src="/storage/{{$report->img}}" alt="Card image cap">
         </a>
         <div class="card-body">
             <p class="report-card-title">{{$report->title}}</p>
