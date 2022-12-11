@@ -12,10 +12,6 @@ use Intervention\Image\ImageManager;
 class SunderlandMatchReportsController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     
 
 
@@ -38,6 +34,7 @@ class SunderlandMatchReportsController extends Controller
 
     public function edit($id)
     {
+        $this->middleware('auth');
         $report = SunderlandMatchReports::find($id);
         return view('football.sunderland.reports.edit', ['report' => $report]);
     }
