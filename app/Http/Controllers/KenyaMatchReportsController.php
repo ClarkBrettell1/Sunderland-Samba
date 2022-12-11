@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 
-use App\Models\SunderlandMatchReports;
+use App\Models\KenyaMatchReports;
 use Illuminate\Http\Request;
 use Intervention\Image\ImageManager;
 
 
 
-class SunderlandMatchReportsController extends Controller
+class KenyaMatchReportsController extends Controller
 {
 
     public function __construct()
@@ -21,25 +21,25 @@ class SunderlandMatchReportsController extends Controller
 
     public function index()
     {
-        $reports = \DB::table('sunderland_match_reports')->get();
-        return view('football.sunderland.reports.index', ['reports' => $reports]);
+        $reports = \DB::table('kenya_match_reports')->get();
+        return view('football.kenya.reports.index', ['reports' => $reports]);
     }
     public function show($id)
     {
-        $report = \DB::table('sunderland_match_reports')->where('id', $id)->first();
-        return view('football.sunderland.reports.show', ['report' => $report]);
+        $report = \DB::table('kenya_match_reports')->where('id', $id)->first();
+        return view('football.kenya.reports.show', ['report' => $report]);
     }
 
     public function create()
     {
-        return view('football.sunderland.reports.create');
+        return view('football.kenya.reports.create');
     }
 
 
     public function edit($id)
     {
-        $report = SunderlandMatchReports::find($id);
-        return view('football.sunderland.reports.edit', ['report' => $report]);
+        $report = KenyaMatchReports::find($id);
+        return view('football.kenya.reports.edit', ['report' => $report]);
     }
 
     public function store(Request $request)
@@ -68,7 +68,7 @@ class SunderlandMatchReportsController extends Controller
 
         }
 
-        $report = new SunderlandMatchReports();
+        $report = new KenyaMatchReports();
 
         $date1 = strtr($request->input('date'), '/', '-');
         // echo $date1;
@@ -95,7 +95,7 @@ class SunderlandMatchReportsController extends Controller
 
 
 
-        return redirect('/football/sunderland/reports')->with('mssg', "Match Report Added");
+        return redirect('/football/kenya/players')->with('mssg', "Match Report Added");
     }
 
  
@@ -105,7 +105,7 @@ class SunderlandMatchReportsController extends Controller
     {
 
         
-        $report = SunderlandMatchReports::find($id);
+        $report = KenyaMatchReports::find($id);
 
         $manager = new ImageManager();
 
@@ -182,13 +182,13 @@ class SunderlandMatchReportsController extends Controller
 
 
 
-        return redirect('/football/sunderland/reports')->with('mssg', "Match Report was updated");
+        return redirect('/football/kenya/reports')->with('mssg', "Player was updated");
     }
 
 
     public function destroy($report)
     {
-        $report = SunderlandMatchReports::findOrFail($report);
+        $report = KenyaMatchReports::findOrFail($report);
         $report->delete();
     }
 }

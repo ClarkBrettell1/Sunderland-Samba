@@ -2372,9 +2372,6 @@
         font-size: 0.85rem;
     }
 
-    .datepicker {
-        margin-bottom: 3rem;
-    }
 
     /*
 *
@@ -2418,74 +2415,153 @@
 
 
 
-<div class="d-flex flex-column page-size p-2">
-    <h1>Add The Match Report</h1>
+<div class="d-flex flex-column page-size ">
     <div clas="mssg"></div>
-    <form class="d-flex flex-column create-form p-3" action="/football/sunderland/reports/{{$report->id }}/update" method="POST" enctype="multipart/form-data">
+    <form class="d-flex flex-column create-form px-5 py-3" style="background: white;"action="/football/sunderland/reports/{{$report->id }}/update" method="POST" enctype="multipart/form-data">
+        <h4>Add The Match Report</h4>
         @csrf
         @method('Put')
-        <label for="title">Fixture Name</label>
-        <input class="p-1 m-1" name="title" id="title" value="{{$report->title}}">
-
-        <label for="date">Fixture Date</label>
-        <div class="datepicker date input-group p-1">
-            <input class="p-1 m-1" id="date" name="date" value="{{$report->date}}">
-            <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-clock-o"></i></span></div>
+        <div class="input-group mb-3 p-0">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                Fixture Name    
+                </span>   
+            </div>
+            <input class="form-control" name="title" id="title" placeholder="Example: Samba Vs Yav" aria-label="Fixture Title" required aria-describedby="basic-addon1" value="{{$report->title}}">
         </div>
 
-        <label for="result">Result</label>
-        <input class="p-1 m-1" name="result" id="result" value="{{$report->result}}">
+        <div class="input-group mb-3 p-0 d-flex" style="flex-wrap:nowrap; align-items: baseline;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon2">
+                Fixture Date
+                </span>   
+            </div>
+            <div class="datepicker date input-group p-1 d-flex" style="height:38px; align-items: baseline;">
+                <input class="p-1 mb-3" id="date" name="date" required value="{{$report->date}}">
+                <div class="input-group-append"><span class="input-group-text px-2" style="height: 38px;"><i class="fa fa-clock-o"></i></span></div>
+            </div>
+        </div>
 
-        <label for="home">Home(Yes / No)</label>
-        <input class="p-1 m-1" name="home" id="home" value="{{$report->home}}">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="result">Result</label>
+            </div>
+            <select class="custom-select mr-sm-2" id="result" name="result" value="{{$report->result}}">
+                <option value="0">Lose</option>
+                <option value="1">Draw</option>
+                <option value="2">Win</option>
+              </select>
+          </div>
 
-        <label for="home_goals">Home Goals</label>
-        <input class="p-1 m-1" name="home_goals" id="home_goals" value="{{$report->home_goals}}">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="home">Venue</label>
+            </div>
+            <select class="custom-select mr-sm-2" id="home" name="home">
+                <option value="0">Away</option>
+                <option value="1">Home</option>
+              </select>
+          </div>
 
-        <label for="away_goals">Away Goals</label>
-        <input class="p-1 m-1" name="away_goals" id="away_goals" value="{{$report->away_goals}}">
+          <div class="form-group">
+            <label for="home_goals">Home Team Goals:              <span id="homeDemo"></span></label>
+            <input type="range" min='0' max="20" value="0" class="form-control-range" name="home_goals" id="home_goals" required>
+            <span id="homeDemo"></span>
+          </div>
 
-        <label for="img">Main Image</label>
-        <input class="p-1 m-1" type="file" id="img" name="img">
-        <img src="/img/reports/{{$report->img}}" alt="report img" class="thumb">
+          <div class="form-group">
+            <label for="away_goals">Away Team Goals:  <span id="awayDemo"></span></label>
+            <input type="range" min='0' max="20" value="0" class="form-control-range" name="away_goals" id="away_goals" required>
+            <span id="awayDemo"></span>
+          </div>
+          
+          <div class="form-group">
+              <label class="input-group-text" for="img">Main Image</label>
+              <input class="p-1 m-1" type="file" id="img" name="img">
+          </div>
 
-        <label for="paragraph_1">First Paragraph (required)</label><br>
-        <textarea name="paragraph_1" id="paragraph_1" cols="30" rows="10" >
-            {{$report->paragraph_1}}
-        </textarea>
+          <div class="form-group">
+            <label for="paragraph_1">First Paragraph: ( Recommend typing this up and copying pasting in )</label>
+            <textarea class="form-control" rows="10" name="paragraph_1" id="paragraph_1" required>
+                {{$report->paragraph_1}}
+            </textarea>
+          </div>
+
         <label for="paragraph_2">Second Paragraph (optional)</label><br>
         <textarea name="paragraph_2" id="paragraph_2" cols="30" rows="10">
             {{$report->paragraph_2}}
         </textarea>
 
-        <label for="img_2">Additional Image(optional)</label>
+
+        <div class="form-group mt-3">
+            <label class="input-group-text" for="img_2">Optional Supporting image</label>
+            <input class="p-1 m-1" type="file" id="img_2" name="img_2">
+        </div>
+
+        {{-- <label for="img_2">Additional Image(optional)</label>
         <input class="p-1 m-1" type="file" id="img_2" name="img_2">
-        <img src="/img/reports/{{$report->img_2}}" alt="report img" class="thumb">
-        
-        <label for="paragraph_3">Third Paragraph (optional)</label><br>
+        </textarea> --}}
+
+        <label for="paragraph_3">Third Paragraph (optional)</label>
         <textarea name="paragraph_3" id="paragraph_3" cols="30" rows="10">
             {{$report->paragraph_3}}
         </textarea>
-        
-        <label for="paragraph_4">Fourth Paragraph (optional)</label><br>
+
+        <label for="paragraph_4">Fourth Paragraph (optional)</label>
         <textarea name="paragraph_4" id="paragraph_4" cols="30" rows="10">
             {{$report->paragraph_4}}
         </textarea>
-        
-        <label for="img_3">Additional Image (optional)</label>
-        <input class="p-1 m-1" type="file" id="img_3" name="img_3">
-        <img src="/img/reports/{{$report->img_3}}" alt="report img" class="thumb">
 
-        <label for="paragraph_5">Fifth Paragraph (optional)</label><br>
+        <div class="form-group mt-3">
+            <label class="input-group-text" for="img_3">Optional Supporting image</label>
+            <input class="p-1 m-1" type="file" id="img_3" name="img_3">
+        </div>
+        {{-- <label for="img_3">Additional Image (optional)</label>
+        <input class="p-1 m-1" type="file" id="img_3" name="img_3"> --}}
+
+        <label for="paragraph_5">Fifth Paragraph (optional)</label>
         <textarea name="paragraph_5" id="paragraph_5" cols="30" rows="10">
             {{$report->paragraph_5}}
         </textarea>
 
 
 
-        <input class="btn btn-info px-3 mx-auto my-2" type="submit" value="Update Match Report">
-    </form>
+   
+        <input class="btn btn-primary px-3 mx-auto my-2" type="submit" value="Update Match Report">   </form>
 </div>
+<script>
+    var slider = document.getElementById("home_goals");
+var output = document.getElementById("homeDemo");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+
+var awayslider = document.getElementById("away_goals");
+var awayoutput = document.getElementById("awayDemo");
+awayoutput.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+awayslider.oninput = function() {
+  awayoutput.innerHTML = this.value;
+}
+$( document ).ready(function() {
+    console.log( "ready!" );
+    result = <?php echo $report->result ?>;
+    home = <?php echo $report->home ?>;
+    homegoals = <?php echo $report->home_goals ?>;
+    awaygoals = <?php echo $report->away_goals ?>;
+    console.log(result);
+    $("#result").val(result);
+    $("#home").val(home);
+    $("#home_goals").val(homegoals);
+    $("#homeDemo").html(homegoals);
+    $("#away_goals").val(awaygoals);
+    $("#awayDemo").html(awaygoals);
+});
+</script>
 @endsection
 
 
