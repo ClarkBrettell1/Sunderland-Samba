@@ -12,11 +12,6 @@ use Intervention\Image\ImageManager;
 class KenyaMatchReportsController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-    
 
 
     public function index()
@@ -32,12 +27,14 @@ class KenyaMatchReportsController extends Controller
 
     public function create()
     {
+        $this->middleware('auth');
         return view('football.kenya.reports.create');
     }
 
 
     public function edit($id)
     {
+        $this->middleware('auth');
         $report = KenyaMatchReports::find($id);
         return view('football.kenya.reports.edit', ['report' => $report]);
     }
